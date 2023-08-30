@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora de Promedio de Notas</title>
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div class="calculadora">
+  <h1>Promedio de Notas</h1>
+  <h2>Introduce una nota para promediar : </h2>
+  <div class="input-container">
+    <label for="nota">Ingrese una nota:</label>
+    <input type="number" id="nota" min="0" max="100">
+    <button onclick="agregarNota()">Agregar</button>
+  </div>
+  <ul id="notas-list"></ul>
+  <div id="promedio-container">
+    <p>Promedio de notas: <span id="promedio">0</span></p>
+  </div>
+</div>
+<script src="./scripts/script.js"></script>
+</body>
+</html>
